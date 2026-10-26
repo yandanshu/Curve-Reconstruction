@@ -1,0 +1,21 @@
+reconstruction:
+  p_nurbs: 3
+  w1: 100
+  w2: 20.0
+  w3: 1.0
+  k_rbf: 6.0
+  s0: 1024.0
+  match_dis_thre: 15.0
+
+pose_error:
+  trans_error_m: 0.0
+  rot_error_deg: 0.0
+  seed: 42
+
+dataset:
+  root: path/to/your/image_pairs
+  image_scale: 0.2
+
+run:
+  output_root: ../outputs/reconstruction
+  case: ""
